@@ -86,6 +86,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-abolish'
 
+Plugin 'tomlion/vim-solidity'
+
 "Javascript Plugins
 Plugin 'othree/yajs.vim'
 Plugin 'mxw/vim-jsx'
@@ -287,7 +289,7 @@ let base16colorspace=256
 set t_Co=256
 syntax on
 syntax enable
-colorscheme Brogrammer2
+colorscheme brogrammer
 " colorscheme Brogrammer
 " colorscheme base16-3024
 highlight ExtraWhitespace ctermbg=red guibg=red
@@ -348,4 +350,3 @@ function! CloseHiddenBuffers()
     endif
   endfor
 endfun
-
